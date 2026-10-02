@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Osztálykirándulás - Veszprém Vármegye</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f5f7fa;
+        color:#333;
+        line-height:1.6;
+    }
+
+    header{
+        background:linear-gradient(135deg,#0066cc,#00a2ff);
+        color:white;
+        text-align:center;
+        padding:50px 20px;
+    }
+
+    header h1{
+        font-size:3rem;
+        margin-bottom:10px;
+    }
+
+    header p{
+        font-size:1.2rem;
+    }
+
+    section{
+        padding:40px;
+        max-width:1200px;
+        margin:auto;
+    }
+
+    h2{
+        color:#0066cc;
+        margin-bottom:20px;
+    }
+
+    .card{
+        background:white;
+        padding:25px;
+        margin-bottom:30px;
+        border-radius:12px;
+        box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .day{
+        border-left:6px solid #0066cc;
+    }
+
+    ul{
+        margin-left:25px;
+    }
+
+    .cost{
+        background:#e8f4ff;
+        padding:15px;
+        margin-top:15px;
+        border-radius:8px;
+    }
+
+    footer{
+        background:#003b75;
+        color:white;
+        text-align:center;
+        padding:20px;
+        margin-top:40px;
+    }
+
+    .btn{
+        display:inline-block;
+        background:#0066cc;
+        color:white;
+        padding:10px 20px;
+        text-decoration:none;
+        border-radius:8px;
+        margin-top:15px;
+    }
+
+    .btn:hover{
+        background:#004f9e;
+    }
+
+    @media(max-width:768px){
+        header h1{
+            font-size:2rem;
+        }
+
+        section{
+            padding:20px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Osztálykirándulás Veszprém Vármegyében</h1>
+    <p>Veszprém • Tihany • Balatonfüred</p>
+</header>
+
+<section id="helyszin">
+    <div class="card">
+        <h2>Miért ezt a három települést választottuk?</h2>
+
+        <p>
+            Veszprém, Tihany és Balatonfüred Veszprém vármegye legismertebb
+            turisztikai célpontjai közé tartoznak. Gazdag történelmi,
+            kulturális és természeti értékekkel rendelkeznek,
+            valamint rövid távolságra találhatók egymástól,
+            így ideális célpontot jelentenek egy háromnapos osztálykirándulás számára.
+        </p>
+
+        <ul>
+            <li>Veszprém - a királynék városa</li>
+            <li>Tihany - történelmi apátság és levendulamezők</li>
+            <li>Balatonfüred - a Balaton elegáns üdülővárosa</li>
+        </ul>
+    </div>
+</section>
+
+<section id="szallas">
+    <div class="card">
+        <h2>Szállás</h2>
+
+        <h3>Ruttner-ház Kávézó & Hostel</h3>
+
+        <p>
+            📍 8200 Veszprém, Jókai Mór utca 8.
+        </p>
+
+        <a class="btn" href="https://ruttnerhaz.hu" target="_blank">
+            Szállás weboldala
+        </a>
+
+        <br><br>
+
+        <h3>Szobabeosztás</h3>
+
+        <ul>
+            <li>2 fiú szoba (2 × 8 fő)</li>
+            <li>1 lány szoba (8 fő)</li>
+            <li>1 tanári szoba + 1 diák (2+1 fő)</li>
+        </ul>
+
+        <div class="cost">
+            <strong>Szállás összköltsége:</strong> 85 600 Ft
+        </div>
+    </div>
+</section>
+
+<section id="nap1">
+    <div class="card day">
+        <h2>1. Nap - Veszprém</h2>
+
+        <p>
+            Reggeli indulás Budapestről vonattal Veszprémbe.
+            Érkezés után elfoglaljuk a szállást,
+            majd megkezdjük a városnézést.
+        </p>
+
+        <h3>Programok</h3>
+
+        <ul>
+            <li>🏰 Veszprémi Vár (2 óra)</li>
+            <li>🔥 Tűztorony (1 óra)</li>
+            <li>🌳 Benedek-hegy (1,5 óra)</li>
+        </ul>
+
+        <div class="cost">
+            Belépők összesen: kb. 3 500 Ft/fő
+        </div>
+    </div>
+</section>
+
+<section id="nap2">
+    <div class="card day">
+        <h2>2. Nap - Tihany</h2>
+
+        <p>
+            Reggeli után autóbusszal Tihanyba utazunk,
+            ahol Magyarország egyik legszebb Balaton-parti települését fedezzük fel.
+        </p>
+
+        <h3>Programok</h3>
+
+        <ul>
+            <li>⛪ Tihanyi Bencés Apátság (2 óra)</li>
+            <li>🌿 Levendula Ház Látogatóközpont (1,5 óra)</li>
+            <li>🚶 Belső-tó és Barátlakások túra (2 óra)</li>
+        </ul>
+
+        <div class="cost">
+            Belépők összesen: kb. 3 700 Ft/fő
+        </div>
+    </div>
+</section>
+
+<section id="nap3">
+    <div class="card day">
+        <h2>3. Nap - Balatonfüred</h2>
+
+        <p>
+            Utolsó napunkat Balatonfüreden töltjük,
+            ahol kulturális és balatoni hagyományokat bemutató programokon veszünk részt.
+        </p>
+
+        <h3>Programok</h3>
+
+        <ul>
+            <li>🌊 Tagore sétány (1,5 óra)</li>
+            <li>📚 Jókai Mór Emlékház (1,5 óra)</li>
+            <li>⛵ Vitorlázeum (1,5 óra)</li>
+        </ul>
+
+        <div class="cost">
+            Belépők összesen: kb. 3 000 Ft/fő
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="card">
+        <h2>Összegzés</h2>
+
+        <p>
+            A háromnapos osztálykirándulás során a diákok megismerhetik
+            Veszprém vármegye történelmi, kulturális és természeti értékeit.
+            A program változatos városnézéseket, múzeumlátogatásokat,
+            kirándulásokat és közösségi élményeket kínál.
+        </p>
+
+        <h3>Résztvevők</h3>
+
+        <p>25 diák + 2 kísérő tanár</p>
+    </div>
+</section>
+
+<footer>
+    <p>Osztálykirándulás 2026 | Veszprém • Tihany • Balatonfüred</p>
+</footer>
+
+</body>
+</html>
